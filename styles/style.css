@@ -10,11 +10,14 @@
 
 }
 
+body {
+    background-color: var(--paleBlue);
+}
+
 header {
     background-image: url(/images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: 100% 60%;
-    background-color: var(--paleBlue);
 }
 
 .container {

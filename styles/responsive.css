@@ -1,7 +1,6 @@
 @media screen and (max-width: 425px) {
     header {
         background: none !important;
-        background-color: var(--paleBlue) !important;
     }
 
     .container {
