@@ -1,0 +1,16 @@
+@media screen and (max-width: 425px) {
+    header {
+        background: none !important;
+        background-color: var(--paleBlue) !important;
+    }
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+    .card img {
+        width: 100%;
+    }
+}
