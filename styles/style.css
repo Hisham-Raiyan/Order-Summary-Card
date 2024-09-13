@@ -32,8 +32,8 @@ header {
     text-align: center;
     justify-items: center;
     background-color: var(--veryPaleBlue);
-    border-radius: 1rem; /* Optional: makes the card have rounded corners */
-    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+    border-radius: 1rem;
+    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 .card img{
