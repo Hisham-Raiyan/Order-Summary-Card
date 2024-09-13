@@ -59,13 +59,13 @@ header {
 .plan {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Ensures the elements inside are spread out */
+    justify-content: space-between;
     padding: 1.5rem;
     gap: 1rem;
     background-color: hsla(225, 100%, 94%, 0.2);
     border-radius: 1rem;
-    margin: 1rem auto; /* Auto will center the element horizontally */
-    max-width: 80%; /* Ensure the plan section has a width to respond to */
+    margin: 1rem auto;
+    max-width: 80%;
 }
 
 .bold{
