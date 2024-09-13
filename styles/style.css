@@ -58,11 +58,14 @@ header {
 
 .plan {
     display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures the elements inside are spread out */
     padding: 1.5rem;
     gap: 1rem;
     background-color: hsla(225, 100%, 94%, 0.2);
     border-radius: 1rem;
-    margin: 1rem 0 1rem 0;
+    margin: 1rem auto; /* Auto will center the element horizontally */
+    max-width: 80%; /* Ensure the plan section has a width to respond to */
 }
 
 .bold{
@@ -70,7 +73,7 @@ header {
     font-weight: 700;
 }
 
-.plan h5 {
+.plan h3 {
     color: var(--desaturatedBlue);
     font-size: 1rem;
 }
@@ -83,6 +86,7 @@ header {
     align-self: center;
     font-weight: 700;
     margin-left: 5rem;
+    padding-right: 1.5rem;
 }
 
 button:active {

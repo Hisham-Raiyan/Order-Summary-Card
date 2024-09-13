@@ -1,12 +1,16 @@
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 515px) {
     header {
         background-image: url('../images/pattern-background-mobile.svg') !important;
     }
 
     .container {
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
 
+    }
+
+    .plan a {
+        margin-left: 1.7rem !important;
     }
 
     .card img {
